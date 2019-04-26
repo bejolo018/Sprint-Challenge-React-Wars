@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Char from './components/Character';
 
 const chars = [
   {
@@ -52,6 +53,7 @@ class App extends Component {
             return <chars charsProp={charsFromMap} />;
           })}
         </div>
+        <Char />
       </div>
     );
   }
