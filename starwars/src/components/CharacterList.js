@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import Char from './Character';
+import Character from './Character';
 
 
-const charList = (props) => {
+const CharacterList = (props) => {
     return(
         <div>
-        {props.charList.map(CharFromMap => {
-            <Char Char={Char} />;
+        {props.characterList.map((characterList) => {
+            <Character characterList={characterList} />;
           })}
         </div>
     )
 }
 
-export default charList
+export default CharacterList;
