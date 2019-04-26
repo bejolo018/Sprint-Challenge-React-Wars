@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Char from './components/Character';
-
-const chars = [
-  {
-    name: '',
-    vehicles: '',
-    films: ''
-  }
-]
+import charList from './components/CharacterList';
 
 class App extends Component {
   constructor() {
@@ -42,12 +35,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <div className='Characters'>
-          {this.state.starwarsChars.map(charsFromMap => {
-            return <chars charsProp={charsFromMap} />;
-          })}
-        </div>
-        <Char />
+        <charList/>
+       
       </div>
     );
   }
