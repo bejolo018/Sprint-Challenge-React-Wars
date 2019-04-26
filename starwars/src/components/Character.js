@@ -4,7 +4,7 @@ import App from '../App';
 const Char = props => {
     return(
         <div className='char-card'>
-        <h1>{props.starwarsChars.name}</h1>
+        <h1>{props.charsProp.name}</h1>
         </div>
     )
 }

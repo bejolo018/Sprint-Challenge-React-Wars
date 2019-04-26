@@ -15,12 +15,6 @@ class App extends Component {
     super();
     this.state = {
       starwarsChars: [],
-      charsOnState: chars,
-      char: {
-        name: '',
-        vehicles: '',
-        films: '',
-      }
     };
   }
 
