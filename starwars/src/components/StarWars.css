@@ -1,0 +1,16 @@
+.Character-card{
+    background-color: lightblue;
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: sandybrown;
+}
+
+.Character-card p{
+    background-color: whitesmoke;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
