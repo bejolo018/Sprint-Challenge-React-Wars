@@ -6,8 +6,8 @@ import Char from './Character';
 const charList = (props) => {
     return(
         <div>
-        {this.state.charList.map(charFromMap => {
-            return <chars charsProp={charFromMap} />;
+        {props.charList.map(CharFromMap => {
+            <Char Char={Char} />;
           })}
         </div>
     )
